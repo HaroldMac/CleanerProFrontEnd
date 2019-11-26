@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;  
+}
+
+a:link {
+  color: cornflowerblue;
+}
+
+
+a:visited {
+  color: mediumpurple;
+}
+
+a:hover {
+  
+
+}
+
+a:active {}
+
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
